@@ -1,0 +1,39 @@
+.Input {
+    margin-bottom: 15px;
+}
+.Input label {
+    margin-bottom: 3px;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+
+}
+
+
+.Input input {
+    /*display block;*/
+    display: block;
+    outline: none;
+    border: none;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,.2);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+
+.Input input:focus {
+    box-shadow: inset 0 2px 5px rgba(0,0,0,.5);
+}
+
+.Input span {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Input.invalid label {
+    color: red;
+    font-weight: bold;
+
+}
